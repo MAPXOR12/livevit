@@ -1,0 +1,21 @@
+{
+  "name": "discord-selfbot",
+  "version": "1.0.0",
+  "description": "A selfbot for Discord with streaming functionality.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^1.0.0",
+    "@dank074/discord-video-stream": "^1.0.0",
+    "ytdl-core": "^4.9.1",
+    "selenium-webdriver": "^4.0.0",
+    "chrome-driver": "^114.0.5735.90"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module"
+}
