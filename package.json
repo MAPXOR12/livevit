@@ -1,21 +1,23 @@
 {
-  "name": "discord-selfbot",
-  "version": "1.0.0",
-  "description": "A selfbot for Discord with streaming functionality.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "discord.js-selfbot-v13": "^1.0.1",
-    "@dank074/discord-video-stream": "^1.1.0",
-    "ytdl-core": "^4.10.0",
-    "selenium-webdriver": "^4.10.0",
-    "chrome-driver": "^114.0.5735.90"
-  },
-  "devDependencies": {},
-  "engines": {
-    "node": ">=19.0.0"
-  },
-  "type": "module"
-},
+    "name": "@dank074/discord-video-stream-example-puppeteer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+
+    "dependencies": {
+        "@dank074/discord-video-stream": "https://pkg.pr.new/Discord-RE/Discord-video-stream/@dank074/discord-video-stream@150",
+        "discord.js-selfbot-v13": "^3.5.1",
+        "puppeteer": "^24.1.1",
+        "puppeteer-stream": "^3.0.19"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "typescript": "^5.7.3"
+    },
+    "scripts": {
+        "start": "node index.js",
+
+    },
+    "author": "",
+    "license": "ISC"
+}
